@@ -9,7 +9,7 @@ import { toast } from "react-hot-toast";
 
 const Navbar = () => {
   const { pathname } = useLocation();
-  console.log('ss')
+  // console.log('ss')
   const dispatch = useDispatch();
   const { email } = useSelector((state) => state.auth);
 
