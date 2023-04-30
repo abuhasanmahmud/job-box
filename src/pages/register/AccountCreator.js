@@ -6,7 +6,7 @@ import CandidateRegistration from "./CandidateRegistration";
 import EmployerRegistration from "./EmployerRegistration";
 
 const AccountCreator = () => {
-  console.log('all is okk')
+  // console.log('all is okk')W
   const navigate = useNavigate();
   const { type } = useParams();
 
