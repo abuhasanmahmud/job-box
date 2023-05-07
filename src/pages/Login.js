@@ -8,7 +8,7 @@ import { useDispatch, useSelector } from "react-redux";
 import { toast } from "react-hot-toast";
 const Login = () => {
   const { register, handleSubmit, reset } = useForm();
-  // console.log('ss')
+  console.log('ss')
   const navigate = useNavigate();
   const dispatch = useDispatch();
   const { isLoading, isError, error, email } = useSelector((state) => state.auth);
