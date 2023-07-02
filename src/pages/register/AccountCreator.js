@@ -1,13 +1,7 @@
-import React from "react";
-
-import { useNavigate, useParams } from "react-router-dom";
-import candidate from "../../assets/candidate.svg";
-import employer from "../../assets/employer.svg";
-import CandidateRegistration from "./CandidateRegistration";
-import EmployerRegistration from "./EmployerRegistration";
+import React from "react";c
 
 const AccountCreator = () => {
-  console.log('all is okk')
+  // console.log('all is okk')
   const navigate = useNavigate();
   const { type } = useParams();
 
