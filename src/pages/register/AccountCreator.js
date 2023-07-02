@@ -1,7 +1,7 @@
-import React from "react";c
+import React from "react"
 
 const AccountCreator = () => {
-  console.log('all is okk')
+  // console.log('all is okk')
   const navigate = useNavigate();
   const { type } = useParams();
 
