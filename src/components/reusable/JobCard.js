@@ -5,7 +5,7 @@ const JobCard = ({ jobData }) => {
   const navigate = useNavigate();
   const { _id, position, companyName, location, employmentType } =
     jobData || {};
-    // console.log("data ",dobData)
+    console.log("data ",dobData)
 
   return (
     <div
