@@ -7,7 +7,7 @@ const CandidateRegistration = () => {
   const [countries, setCountries] = useState([]);
   const { handleSubmit, register, control } = useForm();
   const term = useWatch({ control, name: "term" });
-  // console.log(term);
+  console.log(term);
   const navigate = useNavigate();
 
   useEffect(() => {
