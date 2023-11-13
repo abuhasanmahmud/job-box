@@ -28,7 +28,7 @@ const Signup = () => {
   }, [password, confirmPassword]);
 
   const onSubmit = (data) => {
-    console.log(data);
+    // console.log(data);
     const user = {
       email: data.email,
       password: data.password,
